@@ -32,7 +32,7 @@ namespace AzureWebapp
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Test Staging by Santhosh!");
+                    await context.Response.WriteAsync("Prelive deployment successful!");
                 });
             });
         }
